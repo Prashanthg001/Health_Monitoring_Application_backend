@@ -1,0 +1,97 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore any logs generated
+*.log
+
+# Ignore all bytecode files
+*.pyc
+__pycache__/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore environment variable files
+.env
+.venv/
+env/
+venv/
+ENV/
+myenv/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore media files
+/media/
+staticfiles/
+
+# Ignore specific editor/project files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build files
+/build/
+/dist/
+/*.egg-info
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+
+# Ignore local settings
+settings_local.py
+
+# Ignore migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore celery beat schedule file
+celerybeat-schedule
+
+# Ignore backup files
+*.bak
+*.swp
+
+# Ignore compiled files
+*.o
+*.so
+
+# Ignore virtual environments
+bin/
+lib/
+lib64/
+parts/
+include/
+pip-selfcheck.json
+wheels/
+share/
+*.manifest
+*.spec
+
+# Ignore mypy
+.mypy_cache/
+
+# Ignore coverage reports
+.coverage
+*.cover
+*.py,cover
+
+# Ignore Sphinx documentation
+docs/_build/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore package lock file
+package-lock.json
